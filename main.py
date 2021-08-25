@@ -150,7 +150,7 @@ async def restart(client, message):
     await asyncio.sleep(5)
     await k.edit("🔄 **Successfully Updated!**")
     await asyncio.sleep(2)
-    await k.edit("🔄 **Now Restarting ...\n\nJoin @AsmSafone For Updates!**")
+    await k.edit("🔄 **Now Restarting ...\n\nJoin @ReDynamicUpdate For Updates!**")
     try:
         await message.delete()
     except:
