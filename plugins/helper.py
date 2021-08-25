@@ -232,6 +232,6 @@ async def help(client, message):
     reply_markup = InlineKeyboardMarkup(buttons)
     if msg.get('help') is not None:
         await msg['help'].delete()
-    msg['help'] = await message.reply_photo(photo="https://ibb.co/KwTJDV0", caption=HELP_TEXT, reply_markup=reply_markup)
+    msg['help'] = await message.reply_photo(photo="https://telegra.ph/file/afeb362e5b798124f9c01.jpg", caption=HELP_TEXT, reply_markup=reply_markup)
     await mp.delete(message)
 
